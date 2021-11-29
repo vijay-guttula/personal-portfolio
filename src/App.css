@@ -37,6 +37,16 @@
   }
 }
 
+.container {
+  background-color: rgb(206, 206, 186);
+  position: absolute;
+  /* left: 0; */
+  margin-left: 0px;
+  width: 50% !important;
+  height: 100% !important;
+  min-height: 1000px !important;
+}
+
 .navbarContainer {
   width: 100%;
   padding: 5px 30px;
@@ -53,4 +63,55 @@
 
 .nav-link {
   text-transform: uppercase;
+}
+
+.cardContainers {
+  display: flex;
+  padding: 20px;
+  background-color: white;
+  width: 50%;
+  position: relative;
+  margin: auto;
+  margin-top: 20%;
+  /* z-index: ; */
+}
+
+.titleSec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-between; */
+  width: 350% !important;
+  margin-right: 15px;
+}
+
+.titleSec .titleName {
+  /* align-items: center; */
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.titleSec .divider {
+  width: 50px;
+  /* margin-top: -30px; */
+  border-top: 2px solid blue;
+  margin-bottom: 20px;
+}
+
+.titleSec .occupation {
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.titleSec .socialMedia {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.titleSec .socialMedia i {
+  margin-left: 30px;
 }
