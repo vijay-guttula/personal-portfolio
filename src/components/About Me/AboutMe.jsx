@@ -1,0 +1,34 @@
+import React from 'react';
+
+const AboutMe = () => {
+  return (
+    <div className='cardContainers'>
+      <div className='titleSec'>
+        <div className='img'></div>
+        <div className='titleName'>
+          Vijay <br /> Guttula
+        </div>
+        <div className='divider'></div>
+        <div className='occupation'>SDE Intern | Senior CS Undergrad</div>
+        <div className='socialMedia'>
+          <i className='fab fa-instagram fa-lg'></i>
+          <i class='fab fa-twitter fa-lg'></i>
+          <i class='fab fa-linkedin-in fa-lg'></i>
+        </div>
+      </div>
+      <div className='mainDes'>
+        <div className='introTitle'></div>
+        <div className='introSubtitle'></div>
+        <div className='introBtns'></div>
+        <div className='introDescription'>
+          I'm a paragraph. Click here to add your own text and edit me. It’s
+          easy. Just click “Edit Text” or double click me to add your own
+          content and make changes to the font. I’m a great place for you to
+          tell a story and let your users know a little more about you.
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default AboutMe;
