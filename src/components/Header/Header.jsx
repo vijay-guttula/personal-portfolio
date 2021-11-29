@@ -1,34 +1,35 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
     <nav className='navbar navbar-expand-lg navbar-light bg-light'>
       <div className='container-fluid navbarContainer'>
-        <a className='navbar-brand' href='#'>
+        <Link className='navbar-brand' to='/'>
           Vijay Guttula <span>/ SDE Intern</span>
-        </a>
+        </Link>
 
         <div id='navbarNav'>
           <ul className='navbar-nav'>
             <li className='nav-item'>
-              <a className='nav-link active' aria-current='page' href='#'>
+              <Link className='nav-link active' to='/'>
                 About me
-              </a>
+              </Link>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='#'>
+              <Link className='nav-link' to='/resume'>
                 Resume
-              </a>
+              </Link>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='#'>
+              <Link className='nav-link' to='/'>
                 Projects
-              </a>
+              </Link>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='#'>
+              <Link className='nav-link' to='/'>
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

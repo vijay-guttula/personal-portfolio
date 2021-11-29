@@ -12,8 +12,8 @@ const AboutMe = () => {
         <div className='occupation'>SDE Intern | Senior CS Undergrad</div>
         <div className='socialMedia'>
           <i className='fab fa-instagram fa-lg'></i>
-          <i class='fab fa-twitter fa-lg'></i>
-          <i class='fab fa-linkedin-in fa-lg'></i>
+          <i className='fab fa-twitter fa-lg'></i>
+          <i className='fab fa-linkedin-in fa-lg'></i>
         </div>
       </div>
       <div className='mainDes'>

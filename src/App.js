@@ -1,17 +1,21 @@
 import './App.css';
 import Header from './components/Header/Header';
 import AboutMe from './components/About Me/AboutMe';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import Resume from './components/Resume/Resume';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
     <>
-      <Header />
-      <div className='container'></div>
       <Router>
+        <Header />
+        <div className='container'></div>
         <Switch>
-          <Route path='/' component={AboutMe}>
+          <Route exact path='/' component={AboutMe}>
             <AboutMe />
+          </Route>
+          <Route path='/resume' component={Resume}>
+            <Resume />
           </Route>
         </Switch>
       </Router>
