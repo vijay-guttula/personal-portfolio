@@ -37,19 +37,23 @@
   }
 }
 
-.container {
+.Container {
   background-color: rgb(206, 206, 186);
   position: absolute;
   /* left: 0; */
+  top: 0;
   margin-left: 0px;
   width: 50% !important;
   height: 100% !important;
-  min-height: 1000px !important;
+  min-height: 2000px !important;
 }
 
-.navbarContainer {
+.navbar {
   width: 100%;
   padding: 5px 30px;
+  position: fixed;
+  top: 0;
+  z-index: 9;
 }
 
 .navbar-brand {
@@ -146,4 +150,42 @@
 
 .mainDes .introDescription {
   margin-top: 50px;
+}
+
+.cardContainersWork {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 40px;
+  background-color: white;
+  width: 60%;
+  position: relative;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.resumeTitle {
+  /* text-align: center; */
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.workContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.workContainer .workIntro .workTimeline {
+  color: blue;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.workContainer .workDes {
+  width: 65%;
+}
+
+.listContainer {
+  /* height: 10px; */
+  /* display: flex; */
+  /* flex-wrap: wrap; */
 }
