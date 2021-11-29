@@ -66,13 +66,17 @@
 }
 
 .cardContainers {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   display: flex;
   padding: 20px;
   background-color: white;
-  width: 50%;
+  width: 60%;
   position: relative;
   margin: auto;
+  /* margin-right: auto; */
+  /* margin-left: 30%; */
   margin-top: 20%;
+  justify-content: space-between;
   /* z-index: ; */
 }
 
@@ -80,14 +84,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: space-between; */
-  width: 350% !important;
+  justify-content: space-between;
+  /* width: 50%; */
   margin-right: 15px;
 }
 
 .titleSec .titleName {
   /* align-items: center; */
-  font-size: 25px;
+  font-size: 40px;
   text-align: center;
   font-weight: bold;
   margin-bottom: 20px;
@@ -101,6 +105,7 @@
 }
 
 .titleSec .occupation {
+  font-size: ;
   text-align: center;
   letter-spacing: 1px;
 }
@@ -110,8 +115,35 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-bottom: 5px;
 }
 
 .titleSec .socialMedia i {
   margin-left: 30px;
+}
+
+.mainDes {
+  width: 50%;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.mainDes .introTitle {
+  font-size: 40px;
+  /* text-align: center; */
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.mainDes .introSubtitle {
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.mainDes .introBtns {
+  /* margin-bottom: 0px; */
+}
+
+.mainDes .introDescription {
+  margin-top: 50px;
 }

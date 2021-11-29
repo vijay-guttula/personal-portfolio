@@ -17,9 +17,12 @@ const AboutMe = () => {
         </div>
       </div>
       <div className='mainDes'>
-        <div className='introTitle'></div>
-        <div className='introSubtitle'></div>
-        <div className='introBtns'></div>
+        <div className='introTitle'>Hello,</div>
+        <div className='introSubtitle'>Here's who I am &#38; what I do</div>
+        <div className='introBtns'>
+          <button>Resume</button>
+          <button>Projects</button>
+        </div>
         <div className='introDescription'>
           I'm a paragraph. Click here to add your own text and edit me. It’s
           easy. Just click “Edit Text” or double click me to add your own
