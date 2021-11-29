@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.navbarContainer {
+  width: 100%;
+  padding: 5px 30px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.navbar-brand span {
+  font-weight: 300;
+}
+
+.nav-link {
+  text-transform: uppercase;
+}
