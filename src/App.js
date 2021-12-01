@@ -8,16 +8,16 @@ function App() {
   return (
     <>
       <div className='somethingIhavepickedupoftheInternet'>&nbsp;</div>
-      <div className='mobile:w-screen  subpixel-antialiased Container md:container'>
+      <div className='mobile:w-screen  subpixel-antialiased Container md:containered'>
         <Intro />
       </div>
-      <div className='mobile:w-screen subpixel-antialiased Container md:container'>
+      <div className='mobile:w-screen subpixel-antialiased Container md:containered'>
         <Projects />
       </div>
-      <div className='mobile:w-screen subpixel-antialiased Container md:container'>
+      <div className='mobile:w-screen subpixel-antialiased Container md:containered'>
         <Work />
       </div>
-      <div className='mobile:w-screen subpixel-antialiased Container lastContainer md:container'>
+      <div className='mobile:w-screen subpixel-antialiased Container lastContainer md:containered'>
         <Contact />
       </div>
     </>
