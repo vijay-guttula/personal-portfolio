@@ -66,16 +66,16 @@
 .introHeader {
   font-family: 'Courier New', Courier, monospace;
   background-color: black;
-  display: inline;
+  /* display: inline; */
   color: #fff;
-  font-size: 60px;
+  /* font-size: 60px; */
   letter-spacing: 1px;
 }
 
 .introDes {
   /* font-family: 'Courier New', Courier, monospace; */
   margin-top: 5px;
-  font-size: 20px;
+  /* font-size: 20px; */
   /* font-weight: normal; */
   /* text-shadow: 0px 0px black; */
   line-height: 1.5em;
@@ -85,14 +85,14 @@
 }
 
 .title {
-  font-size: 40px;
+  /* font-size: 40px; */
   color: rgb(85, 85, 85);
   letter-spacing: 5px;
   /* font-family; */
 }
 
 .subTitle {
-  font-size: 20px;
+  /* font-size: 20px; */
   line-height: 1.5em;
   letter-spacing: 1px;
   color: rgb(43, 43, 43);

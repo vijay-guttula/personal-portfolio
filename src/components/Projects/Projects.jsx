@@ -3,15 +3,17 @@ import React from 'react';
 const Projects = () => {
   return (
     <div>
-      <div className='title'>Projects</div>
-      <div className='subTitle text-xl mt-3'>Things I did so far...</div>
+      <div className='title text-3xl'>Projects</div>
+      <div className='subTitle text-xl mt-3'>
+        Some things I've learned to build.
+      </div>
       <div className='projects text-lg tracking-wide leading-relaxed'>
-        <div className='project '>
+        <div className='project'>
           <a
             className='no-underline hover:underline'
             href='https://github.com/vijay-guttula/mern-todo'
           >
-            <span className='font-bold'>To-Dos</span>: Create your profile and
+            <span className='font-bold'>To-Do</span>: Create your profile and
             save notes on the go.
           </a>
         </div>
