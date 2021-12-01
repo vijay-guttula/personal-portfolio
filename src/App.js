@@ -1,6 +1,7 @@
 import './App.css';
 import Intro from './components/Intro/Intro';
 import Projects from './components/Projects/Projects';
+import Work from './components/Work/Work';
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
       </div>
       <div className='md:container md:mx-auto subpixel-antialiased Container'>
         <Projects />
+      </div>
+      <div className='md:container md:mx-auto subpixel-antialiased Container'>
+        <Work />
       </div>
     </>
   );
