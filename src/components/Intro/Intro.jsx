@@ -14,7 +14,11 @@ const Intro = () => {
             Toolbox
           </a>
         </span>
-        .
+        . <br />
+        My key interests lie in{' '}
+        <span className='font-bold'>Industrial Tech</span>. <br />
+        And my current goal is to strenthen my CS background and be a better
+        engineer than yesterday.
       </div>
     </div>
   );

@@ -15,15 +15,27 @@ const Work = () => {
         <span> </span>
         since <span className='font-bold'>Aug, 2020</span>.
       </div>
-      <div className='subTitle text-lg'>Things I've done in the internship</div>
+      <div className='subTitle text-lg mt-2'>
+        Projects I've worked on during the internship
+      </div>
+      <ul className='text-lg font-bold mt-1 mb-2'>
+        <li>Networks-Ecom-App (VueJs, Cordova, GraphQl)</li>
+        <li>Networks-Web (PHP)</li>
+        <li>Ecoms-Dashboard (ReactJs)</li>
+      </ul>
       <ul className='list-disc text-lg ml-5 tracking-wide leading-relaxed'>
-        <li>Integrated the cancel order flow to the store</li>
-        <li>Added module to support banners for targetted promotions</li>
-        <li>Integrated the product video upload to dashboard</li>
-        <li>Added support to broadcast and move feeds</li>
         <li>
-          Added neccessary and compatible Cordova plugins to tweek native
-          functionality
+          Periodically worked on bringing in new features and scaling the app
+          for better functionality
+        </li>
+        <li>Worked on i18 for extended language support</li>
+        <li>
+          Together with the backend team, achieved in making the app load faster
+          by 15%
+        </li>
+        <li>
+          Worked on scaling neccessary and compatible Cordova plugins to tweek
+          native functionality
         </li>
       </ul>
     </div>
