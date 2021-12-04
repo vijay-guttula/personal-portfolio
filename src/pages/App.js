@@ -5,10 +5,17 @@ import Work from '../components/Work/Work';
 import Contact from '../components/Contact/Contact';
 import Footer from '../components/Footer/Footer';
 import '../styles/App.css';
+import { Helmet } from 'react-helmet';
 
 function App() {
   return (
     <>
+      <div className='application'>
+        <Helmet>
+          <meta charSet='utf-8' />
+          <title>Vijay Guttula</title>
+        </Helmet>
+      </div>
       <div className='somethingIhavepickedupoftheInternet'>&nbsp;</div>
       <div className='mobile:w-screen  subpixel-antialiased Container md:containered'>
         <Intro />
