@@ -5,7 +5,7 @@ module.exports = {
     description:
       'Hogwarts Potions master, Head of Slytherin house and former Death Eater.',
     url: 'https://www.vijayguttula.com', // No trailing slash allowed!
-    twitterUsername: '@vijayguttula',
+    twitterUsername: '@vj_guttula',
   },
   plugins: [
     'gatsby-plugin-postcss',
