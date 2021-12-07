@@ -17,7 +17,7 @@ function App() {
         </Helmet>
       </div>
       <div className='somethingIhavepickedupoftheInternet'>&nbsp;</div>
-      <div className='mobile:w-screen  subpixel-antialiased Container md:containered'>
+      <div className='subpixel-antialiased topContainer mx-auto md:mt-7'>
         <Intro />
       </div>
       <div className='mobile:w-screen subpixel-antialiased Container md:containered'>

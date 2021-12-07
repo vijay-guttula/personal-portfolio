@@ -3,7 +3,7 @@ module.exports = {
   darkMode: false,
   theme: {
     screens: {
-      mobile: '360px',
+      mobile: '350px',
       md: '720px',
     },
     extend: {},
