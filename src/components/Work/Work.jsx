@@ -25,17 +25,24 @@ const Work = () => {
       </ul>
       <ul className='list-disc text-lg ml-5 tracking-wide leading-relaxed'>
         <li>
-          Periodically worked on bringing in new features and scaling the app
-          for better functionality
-        </li>
-        <li>Worked on i18 for extended language support</li>
-        <li>
-          Together with the backend team, achieved in making the app load faster
-          by 15%
+          Architected and Designed responsive frontend for the web, web-based
+          apps, and internal dashboards.
         </li>
         <li>
-          Worked on scaling neccessary and compatible Cordova plugins to tweek
-          native functionality
+          Interfaced with the backend team to build requisite APIs for
+          integration.
+        </li>
+        <li>
+          Worked with the design team to understandand and optimize user
+          journeys.
+        </li>
+        <li>
+          Involved in the strategic decisions of UX and technology stacks.
+        </li>
+        <li>
+          Implemented vigorous testing processes and constantly monitored and
+          updated outdated packages, maintaining the sheer functionality of the
+          app.
         </li>
       </ul>
     </div>
