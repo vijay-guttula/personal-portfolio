@@ -11,5 +11,11 @@ module.exports = {
     'gatsby-plugin-postcss',
     'gatsby-plugin-fontawesome-css',
     'gatsby-plugin-react-helmet',
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        icon: `src/images/vj2.png`,
+      },
+    },
   ],
 };
