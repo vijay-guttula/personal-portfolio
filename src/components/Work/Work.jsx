@@ -13,7 +13,7 @@ const Work = () => {
           </a>
         </span>
         <span> </span>
-        since <span className='font-bold'>Aug, 2020</span>.
+        since <span className='font-bold'>Aug, 2021</span>.
       </div>
       <div className='subTitle text-lg mt-2'>
         Projects I've worked on during the internship
