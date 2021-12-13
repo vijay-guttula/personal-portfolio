@@ -33,8 +33,7 @@ const Work = () => {
           integration.
         </li>
         <li>
-          Worked with the design team to understandand and optimize user
-          journeys.
+          Worked with the design team to understand and optimize user journeys.
         </li>
         <li>
           Involved in the strategic decisions of UX and technology stacks.
