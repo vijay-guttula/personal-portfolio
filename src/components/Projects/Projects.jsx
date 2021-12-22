@@ -11,6 +11,15 @@ const Projects = () => {
         <div className='project'>
           <a
             className='no-underline hover:underline'
+            href='https://github.com/vijay-guttula/spotify-music-controller'
+          >
+            <span className='font-bold'>Spotify-Music-Controller</span>: Create
+            a local room and play music to listen together.
+          </a>
+        </div>
+        <div className='project'>
+          <a
+            className='no-underline hover:underline'
             href='https://github.com/vijay-guttula/mern-todo'
           >
             <span className='font-bold'>To-Do</span>: Create your profile and
