@@ -5,7 +5,7 @@ const Work = () => {
     <div>
       <div className='title text-3xl'>Work</div>
       <div className='subTitle text-xl mt-3'>
-        Working as an<span> </span>
+        Worked as an<span> </span>
         <span className='font-bold'>
           SDE Intern @
           <a className='no-underline hover:underline' href='www.gotoolbox.in'>
@@ -13,7 +13,7 @@ const Work = () => {
           </a>
         </span>
         <span> </span>
-        since <span className='font-bold'>Aug, 2021</span>.
+        from <span className='font-bold'>Aug, 2021 to Nov, 2021</span>.
       </div>
       <div className='subTitle text-lg mt-2'>
         Projects I've worked on during the internship
