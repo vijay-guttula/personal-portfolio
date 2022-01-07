@@ -11,6 +11,15 @@ const Projects = () => {
         <div className='project'>
           <a
             className='no-underline hover:underline'
+            href='https://github.com/vijay-guttula/microservices.architecture/settings'
+          >
+            <span className='font-bold'>Microservices.exe</span>: Microservices
+            + Events + Docker = A perfect Trio
+          </a>
+        </div>
+        <div className='project'>
+          <a
+            className='no-underline hover:underline'
             href='https://github.com/vijay-guttula/spotify-music-controller'
           >
             <span className='font-bold'>Spotify-Music-Controller</span>: Create
