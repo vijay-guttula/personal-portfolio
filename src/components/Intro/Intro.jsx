@@ -8,8 +8,9 @@ const Intro = () => {
         I'm<span className='font-bold'> Vijay Guttula</span>, a
         <span className='font-bold'> Senior CS Undergrad</span>
         . <br />
-        My key interests lie in{' '}
-        <span className='font-bold'>Industrial Tech</span>. <br />
+        I have wide range of interests from software product development in AI,
+        Crypto to semiconductors.
+        <br />
         And my current goal is to strengthen my CS background and be a better
         engineer than yesterday.
       </div>
