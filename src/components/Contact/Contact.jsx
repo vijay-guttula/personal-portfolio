@@ -16,7 +16,7 @@ const Contact = () => {
         style={{ fontSize: '0.85rem' }}
       >
         <div className='contact fa-lg no-underline hover:underline'>
-          <a href='mailto:ssvijayg@gmail.com'>
+          <a href='mailto:this.vijayguttula@gmail.com'>
             <FontAwesomeIcon
               icon={faPaperPlane}
               className='mr-1'

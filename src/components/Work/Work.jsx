@@ -4,8 +4,22 @@ const Work = () => {
   return (
     <div>
       <div className='title text-3xl'>Work</div>
-      <div className='subTitle text-xl mt-3'>
-        Worked as an<span> </span>
+      <div className='subTitle text-xl mt-4'>
+        Currently, <span> </span>
+        <span className='font-bold'>
+          SDE @
+          <a
+            className='no-underline hover:underline'
+            href='https://www.wintwealth.com'
+          >
+            Wint Wealth
+          </a>
+          .
+        </span>
+      </div>
+
+      <div className='subTitle text-xl mt-10'>
+        Previously, worked as an<span> </span>
         <span className='font-bold'>
           SDE Intern @
           <a className='no-underline hover:underline' href='www.gotoolbox.in'>
