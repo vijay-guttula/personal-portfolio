@@ -11,7 +11,7 @@ const Projects = () => {
         <div className='project'>
           <a
             className='no-underline hover:underline'
-            href='https://github.com/vijay-guttula/microservices.architecture/settings'
+            href='https://github.com/vijay-guttula/microservices.architecture'
           >
             <span className='font-bold'>Microservices.exe</span>: Microservices
             + Events + Docker = A perfect Trio
