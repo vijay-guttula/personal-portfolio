@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet';
 import { useLocation } from '@reach/router';
 import { useStaticQuery, graphql } from 'gatsby';
 
-const Seo = ({ title }) => {
+const Seo = ({ title, description, canonical }) => {
   const { pathname } = useLocation();
   const { site } = useStaticQuery(query);
 
@@ -13,13 +13,24 @@ const Seo = ({ title }) => {
   const seo = {
     title: title || defaultTitle,
     url: `${siteUrl}${pathname}`,
+    description: description,
   };
 
   return (
-    <Helmet title={seo.title}>
+    <Helmet
+      title={seo.title}
+      description={seo.description}
+      link={
+        canonical ? [{ rel: 'canonical', key: canonical, href: canonical }] : []
+      }
+    >
       {seo.url && <meta property='og:url' content={seo.url} />}
 
       {seo.title && <meta property='og:title' content={seo.title} />}
+
+      {seo.description && (
+        <meta property='og:description' content={seo.description} />
+      )}
 
       {twitterUsername && (
         <meta name='twitter:creator' content={twitterUsername} />

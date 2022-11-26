@@ -6,13 +6,20 @@ const Intro = () => {
       <div className='introHeader inline-block pl-1  text-6xl'>Hello,</div>
       <div className='introDes text-xl inline-block mt-2 pt-3'>
         I'm<span className='font-bold'> Vijay Guttula</span>, a
-        <span className='font-bold'> Senior CS Undergrad</span>
+        <span className='font-bold'> Software Development Engineer (SDE)</span>
         . <br />
-        I have wide range of interests from software product development in AI,
-        Crypto to semiconductors.
+        Currently building&nbsp;
+        <span className='font-bold'>
+          <a
+            className='no-underline hover:underline'
+            href='https://www.wintwealth.com'
+          >
+            Wint Wealth
+          </a>
+          .
+        </span>
         <br />
-        And my current goal is to strengthen my CS background and be a better
-        engineer than yesterday.
+        <span>Up for building robust tech anytime.</span>
       </div>
     </div>
   );

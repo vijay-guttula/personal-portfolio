@@ -6,7 +6,13 @@ import Seo from '../components/SEO/SEO';
 const IndexPage = () => {
   return (
     <>
-      <Seo />
+      <Seo
+        title={'Vijay Guttula | SDE'}
+        description={
+          'Software Developement.....Um, just someone who tinkers with tech'
+        }
+        canonical={'https://vijayguttula.com/'}
+      />
       <App />
     </>
   );
