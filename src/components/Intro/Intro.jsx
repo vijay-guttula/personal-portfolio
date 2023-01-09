@@ -4,6 +4,7 @@ const Intro = () => {
   return (
     <div className='pt-5'>
       <div className='introHeader inline-block pl-1  text-6xl'>Hello,</div>
+      <br />
       <div className='introDes text-xl inline-block mt-2 pt-3'>
         I'm<span className='font-bold'> Vijay Guttula</span>, a
         <span className='font-bold'> Software Development Engineer (SDE)</span>
