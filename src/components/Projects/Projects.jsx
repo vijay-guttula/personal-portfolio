@@ -20,7 +20,8 @@ const Projects = () => {
             href="https://github.com/vijay-guttula/spotify-music-controller"
           >
             <span className="font-bold">Spotify-Music-Controller</span>: Create
-            a local room and play music to listen together.
+            a local room and play music to listen together (kinda like Spotify's
+            Group Session, before it hit my area's official release.).
           </a>
         </div>
         <div className="project">
@@ -66,7 +67,7 @@ const Projects = () => {
             href="https://github.com/vijay-guttula/Tensy"
           >
             <span className="font-bold">Tensy</span>: Trouble differentiating
-            between a dog or a cat, use this 😂.
+            between a dog or a cat, use this 😶‍🌫️.
           </a>
         </div>
       </div>
